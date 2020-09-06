@@ -1,0 +1,144 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  /**************************************/
+  body{
+    background-color: #e0ece4;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  #main{
+    margin-top: 2%;
+    padding: 2%;
+  }
+  #top{
+    margin-top: 2%;
+    font-size: xx-large;
+  }
+  #top .badge{
+    padding: 2%;
+    background-color: #ff2e63;
+    font-size: xx-large;
+  }
+  
+  #each{
+    margin: 1% 4% 8% 4%;
+    text-align: center;
+    box-shadow: 0 5px 12px 2px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    background-color: #010a43;
+    color: #fff;
+  }
+  #each:hover {
+    box-shadow: 6px 6px 6px 6px #ff2e63;
+    transform: translate3d(0px, -15px, 0px);
+  }
+  #each img{
+    height:200px;
+    padding-bottom: 2%;
+  }
+  #each2{
+    margin: 1% 4% 8% 4%;
+    text-align: center;
+    box-shadow: 0 5px 12px 2px rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    background-color: #010a43;
+    color: #fff;
+  }
+  #each2:hover {
+    box-shadow: 6px 6px 6px 6px #ff2e63;
+  }
+  #each2 img{
+    height:200px;
+    padding-bottom: 2%;
+  }
+  
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  position: relative;
+  background: white;
+  padding: 2%;
+  width: auto;
+}
+
+li {
+  background-color: rgba(214, 214, 214, 0.5);
+  padding: 2%;
+  margin: 2%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #666;
+
+}
+
+.row {
+  width: 100%;
+  margin-top: 5%;
+}
+
+  /*****************************************************/
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  /**************************************/
+  

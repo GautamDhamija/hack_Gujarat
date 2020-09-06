@@ -31,7 +31,10 @@ During the corona pandemic the consultancy services are deeply affected , Today 
  ```bash
   npm run dev
  ```
- **3. Create a `.env` file in the project root folder and copy the format of `.env.sample` file.** 
+ **3. Create a `.env` file in the project root folder and copy the format of `.env.sample` file.-** 
+  ```bash
+
+ ```
  **4.** **🎉  Open your browser and go to  `https://localhost:3000`**
  
 ## Contributors 🤝

@@ -14,3 +14,7 @@ During the corona pandemic the consultancy services are deeply affected , Today 
 * Material-UI
 * React Bootstrap
 * CORS
+### CHALLENGES AND FUTURE IMPROVEMENTS
+The major chanlenge was to design the backend for this project as each consultant had its database as well as user and the medium to integrate both using appointments was brainstorming.
+Then the Frontend part using the react technologies and login system that we designed coveres every possible mistake a user can do while registering and logining in stages , all this is well handleled with alert System.
+
